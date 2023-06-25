@@ -1,0 +1,139 @@
+﻿
+
+body {
+    direction: rtl;
+    font-family: system-ui, Arial, sans-serif;
+}
+
+
+
+header {
+    color: #fff;
+    background-size: cover;
+    background-image: url('pictures/in&out1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 18vw 0vw;
+}
+
+    header .headertext {
+        text-align: right;
+        position: absolute;
+        margin-right: 32%;
+    }
+
+        header .headertext .logosent1 {
+            font-size: 8vw;
+            color: #57A669;
+            margin-top: 1vw;
+        }
+
+        header .headertext .logosent2 {
+            font-size: 2.5vw;
+            color: #89B895;
+        }
+
+
+
+#nav1 {
+    background-color: #70B08A;
+}
+
+    #nav1 ul {
+        list-style: none;
+        margin: 0px;
+        text-align: center;
+    }
+
+        #nav1 ul li {
+            display: inline-block;
+        }
+
+            #nav1 ul li a {
+                background-color: #70B08A;
+                display: block;
+                height: 18px;
+                width: 150px;
+                text-align: center;
+                padding: 5px 0px;
+                color: #fff;
+                text-decoration: none;
+            }
+
+                #nav1 ul li a:hover {
+                    background-color: #FAAB6C;
+                    text-decoration: underline;
+                }
+
+ul li a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+
+
+
+main {
+    background-image: url('pictures/couple-tourists-with-backpacks-mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    padding: 500px 0px;
+}
+section{
+ text-align:right;
+ position: absolute;
+ top:180px;
+ right: 45px;
+
+}
+
+    section .title1 {
+        font-size: 60px;
+        color: #BD8851;
+    }
+    
+    section .title2 {
+        font-size: 19.5px;
+        color: #BD8851;
+        margin-top:10px;
+    }
+
+section div .sent1 {
+    margin-top: 15px;
+}
+section div .sent2 {
+    margin-top: 4px;
+}
+
+}
+
+#main {
+
+    margin: 50px;
+}
+
+footer {
+    direction: ltr;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 120%;
+    }
+
+
+        footer a:hover {
+            text-decoration: underline;
+        }

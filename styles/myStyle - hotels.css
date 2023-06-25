@@ -1,0 +1,182 @@
+﻿
+
+body {
+    direction: rtl;
+    font-family: system-ui, Arial, sans-serif;
+}
+
+
+
+header {
+    color: #fff;
+    background-size: cover;
+    background-image: url('pictures/‏‏in&out1 - copy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 12% 0%;
+}
+
+    header .headertext {
+        text-align: right;
+        position: absolute;
+        margin-right: 38%;
+    }
+
+        header .headertext .logosent1 {
+            font-size: 5vw;
+            color: #57A669;
+            margin-top: 4vw;
+        }
+
+        header .headertext .logosent2 {
+            font-size: 1.56vw;
+            color: #89B895;
+        }
+
+
+
+#nav1 {
+    background-color: #70B08A;
+}
+
+    #nav1 ul {
+        list-style: none;
+        margin: 0px;
+        text-align: center;
+    }
+
+        #nav1 ul li {
+            display: inline-block;
+        }
+
+            #nav1 ul li a {
+                background-color: #70B08A;
+                display: block;
+                height: 18px;
+                width: 150px;
+                text-align: center;
+                padding: 5px 0px;
+                color: #fff;
+                text-decoration: none;
+            }
+
+                #nav1 ul li a:hover {
+                    background-color: #FAAB6C;
+                    text-decoration: underline;
+                }
+
+ul li a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+ul.breadcrumb {
+    padding: 5px 13%;
+    list-style-type: none;
+    background-color: #FEF0E1;
+    border-top: 0.5px solid #57A669;
+}
+
+    ul.breadcrumb li.breadcrumb {
+        display: inline;
+        font-size: 14px;
+    }
+
+        ul.breadcrumb li.breadcrumb a {
+            color: black;
+            text-decoration: none;
+        }
+
+            ul.breadcrumb li.breadcrumb a:hover {
+                color: black;
+                text-decoration: underline;
+            }
+
+        ul.breadcrumb li.breadcrumb:before {
+            content: "\00bb";
+            margin-right: 5px;
+        }
+
+        ul.breadcrumb li.breadcrumb:first-child:before {
+            content: none;
+        }
+
+
+main {
+    background-image: url('pictures/in&out backround.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    padding: 20px;
+}
+
+
+main .title10 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    padding-top: 46px;
+}
+
+.hotels1 {
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.hotel1 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.pic1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.name1 {
+    font-size: 20px;
+    color: #70B08A;
+    margin: 10px 0;
+}
+
+.location1 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.info1 {
+    font-size: 14px;
+}
+
+
+footer {
+    direction: ltr;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: auto;
+        font-size: 120%;
+    }
+
+
+        footer a:hover {
+            text-decoration: underline;
+        }
